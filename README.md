@@ -3,7 +3,10 @@
 
 This project is a **Movie Review Website** built using the Django framework. It allows users to browse concise reviews of movies, showcasing the power and flexibility of Django in creating dynamic, content-driven web applications.
 
-"C:\Users\91840\Videos\Screen Recordings\Screen Recording 2024-11-24 224958.mp4"
+![image](https://github.com/user-attachments/assets/cc318cc8-eeca-45ad-b735-3b53b289e953)  ![image](https://github.com/user-attachments/assets/f961747e-0eca-4e28-b4a3-26b14761b7ce)
+
+
+
 
 
 ## About Django 🛠️
