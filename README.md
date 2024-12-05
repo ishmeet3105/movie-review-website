@@ -1,5 +1,5 @@
 # movie-review-website
-# Movie Review Website 🎥
+# Movie Review Website 
 
 This project is a **Movie Review Website** built using the Django framework. It allows users to browse concise reviews of movies, showcasing the power and flexibility of Django in creating dynamic, content-driven web applications.
 
@@ -9,13 +9,13 @@ This project is a **Movie Review Website** built using the Django framework. It 
 
 
 
-## About Django 🛠️
+## About Django 
 
 Django is a high-level Python web framework that encourages rapid development and clean, pragmatic design. Known for its scalability and built-in features, Django simplifies common web development tasks such as routing, database management, and template rendering.
 
 ---
 
-## How It Works 💡
+## How It Works 
 
 The project leverages Django's core components to deliver functionality in an organized manner:
 
@@ -82,14 +82,14 @@ The `settings.py` file configures the project's behavior, including:
 
 ---
 
-## Features 🌟
+## Features 
 - **Concise Reviews**: Displays quick yet meaningful movie reviews.
 - **Dynamic Routing**: Seamlessly navigate between movie listings and detailed views.
 - **Extensible Models**: Easily add more features like user authentication, comments, or ratings.
 
 ---
 
-## How to Run 🏃‍♂️
+## How to Run 
 1. Clone the repository:
    ```bash
    git clone https://github.com/ishmeet3105/movie-review-website.git
@@ -110,4 +110,4 @@ The `settings.py` file configures the project's behavior, including:
 
 ---
 
-### **Happy Reviewing!** 🎬
+### **Happy Reviewing!** 
