@@ -1,4 +1,3 @@
-# movie-review-website
 # Movie Review Website 
 
 This project is a **Movie Review Website** built using the Django framework. It allows users to browse concise reviews of movies, showcasing the power and flexibility of Django in creating dynamic, content-driven web applications.
