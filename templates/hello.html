@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    
+<head>
+    
+    <body>
+      <h1>All movies</h1>
+      
+      {% for movie in movies %}
+
+<div class="card bg-light mb-3pyth" style="max-width: 1000px;">
+  <div class="row no-gutters">
+    <div class="col-md-2">
+      <img src="{{movie.poster}}" class="card-img" alt="..." >
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"><a href="/blogpost/{{movie.slug}}" class= "text-dark"> {{movie.title}}</a></h5>
+        <p class="card-text">{{movie.short_desc}}</p>
+        <a href="/blogpost/{{movie.slug}}" class= "text-dark"> <button class="btn btn-outline-primary btn-sm"> read more..</button></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+{% endfor %}
+        <script>
+          const URL='http://127.0.0.1:8000/movies/';
+const mov=document.querySelector("#movie")
+const getmovie= async () => {
+    let resp=await fetch(URL);
+console.log(resp);
+let data= await resp.json();
+
+mov.innerText=data.movies[0]["title"];
+};
+
+        </script>
+        
+</body>
+</html>
